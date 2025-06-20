@@ -66,3 +66,11 @@ export const sendMail = async (id1, id2) => {
     console.log('error while sending mail', error);
   }
 };
+const api = axios.create({
+  baseURL: process.env.REACT_APP_API_URL + '/api', // adjust path as needed
+});
+
+// Example call
+api.get('/users')
+  .then(res => console.log(res.data))
+  .catch(err => console.error(err));
