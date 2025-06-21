@@ -39,7 +39,7 @@ const Navbar = () => {
                 to="/"
                 style={{ color: '#ff7c0c' }}
               >
-                Andaan
+                ServeSurplus
               </NavLink>
               <button
                 className="navbar-toggler"

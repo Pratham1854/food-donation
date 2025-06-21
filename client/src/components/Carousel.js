@@ -11,7 +11,7 @@ const Carousel = () => {
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src="./images/slider-3.png"
+              src="./images/food1.jpg"
               class="d-block w-100"
               alt="slider-3"
             />
